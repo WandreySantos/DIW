@@ -1,0 +1,317 @@
+body {
+  background-color: #F4FAFF;
+  overflow-x: hidden;
+}
+
+.logo {
+  max-height: 150px;
+}
+
+#nome {
+  color: #000000;
+}
+
+.store-name {
+  color: #0a0604;
+  font-family: Arial, ;
+  font-size: 50px;
+  font-weight: bold;
+  display: inline;
+  display:auto;
+}
+
+.search-bar {
+  display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 5%;
+    padding: 0.25%;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    flex-direction: row-reverse;
+}
+
+.search-bar input[type="text"] {
+  flex-grow: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.mycart {
+  width: 2.7em;
+  height: 45px;
+  margin-bottom: 1.2em;
+  margin-left: .5em;
+  background-color: #468966;
+  border-radius: 5px;
+  color: #468966;
+  padding: 5px;
+}
+
+.red-text {
+  color: #000000;
+}
+
+.mycart:hover {
+  background-color: white;
+}
+
+.search-form {
+  margin-top: 0px;
+  height: 60px;
+  color: black;
+  padding-left: 400px;
+  background-color: #DAEBD2;
+}
+
+.btn-purple {
+  background-color: #8789C0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.cards {
+  max-width: 400px;
+  height: 400px;
+}
+
+.search-input::placeholder {
+  color: black;
+  background-color: white;
+}
+
+input[type="search"] {
+  padding: 5px;
+  border: 0px solid #189613;
+  border-radius: 4px;
+  width: 600px;
+  background-color: #f8f8f8;
+  color: black;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #020805;
+  border: none;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+button[type="submit"] i {
+  color: black;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(31, 105, 25);
+}
+
+.search2 {
+  width: 5em;
+  height: 2em;
+  background-color: #f84d0a;
+  color: #8789C0;
+}
+
+.MostReviwed {
+  width: 25%;
+  float: left;
+}
+
+.container-sabrina {
+  background-color: #0a7218;
+  border-radius: 20%;
+}
+
+.carrin {
+  padding-top: 0px;
+  padding-left: 1300px;
+  top: 100px;
+  left: 0px;
+  display: flex;
+}
+
+.custom-color {
+  color: #3E4E50;
+}
+
+.custom-color2 {
+  color: #DAEBD2;
+  font-weight: bold;
+}
+
+.custom-color3 {
+  color: #010200;
+  list-style: none;
+}
+
+.border-secondary.mt-3 {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.custom-color4 {
+  color: rgb(10, 6, 6);
+  font-weight: bold;
+}
+
+.list-group a {
+  text-decoration: none;
+}
+
+.card-bottles {
+  width: 10em;
+}
+
+.description-card {
+  font-size: 12px;
+}
+
+.mostreviewed-img {
+  align-items: center;
+  max-width: 200px;
+}
+
+.border-secondary.mt-3 {
+  background-color: #ffffff;
+}
+
+.input-news {
+  width: 9em;
+  height: 1.5em;
+}
+
+.carousel-item {
+  max-height: 100%;
+}
+
+.quick .most {
+  display: flex;
+  padding: 20px;
+}
+
+.newsletter {
+  margin-top: 20px;
+}
+
+.newsletter p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.newsletter .input-news {
+  width: 70%;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  background-color: #040503;
+  border: none;
+  border-radius: 50%;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.newsletter button:hover {
+  background-color: #086d3a;
+}
+
+.newsletter .newsletter-message {
+  font-size: 100%;
+  color: #050505;
+}
+
+/* Footer*/
+.footer {
+  background-color: rgb(185, 185, 185);
+  color: rgb(15, 11, 11);
+  font-family: Arial, sans-serif;
+  padding: 30px 0;
+}
+
+.footer h5 {
+  color: #0c0909;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.footer p,
+.footer ul li {
+  font-size: 14px;
+}
+
+.footer a {
+  color: rgb(14, 3, 11);
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #468966;
+}
+
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1f1d1dc9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #050504;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+/* Media Query */
+@media only screen and (max-width: 767px) {
+  #nome {
+    display: none;
+  }
+  .logo {
+    position: center;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.cabecalho{
+  max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    max-width: 65%;
+}
